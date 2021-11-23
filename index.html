@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/images/favicon-32x32.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Mentor | NFT preview card component</title>
 
@@ -13,20 +13,53 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
     <!-- Preloads -->
-    <link rel="preload" href="/src/css/style.css">
+    <link rel="preload" href="/src/css/style.css" as="style">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" as="style">
 
     <!-- ====== Styles ====== -->
 
     <!-- Google fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="/src/css/style.css">
 </head>
 
 <body>
-    <h1>Hello World !!!</h1>
+    <!-- Main section -->
+    <main>
+        <!-- == Preview card component == -->
+        <div class="nft-card">
+            <!-- Card image -->
+            <div class="nft-card__image"></div>
+            
+            <!-- Card title -->
+            <h2 class="nft-card__card-title">Equilibrium #3429</h2>
+            
+            <!-- Card content text -->
+            <p class="nft-card__content-text">
+                Our Equilibrium collection promotes balance and calm.
+            </p>
+
+            <!-- Under content text wrapper -->
+            <div class="nft-card__wrapper">
+                <div class="nft-card__icon-text-container">
+                    <img class="nft-card__icon" src="/src/svg/icon-ethereum.svg" alt="Ethereum icon" title="Ethereum icon">
+                    0.041<span class="nft-card__unit">ETH</span>
+                </div>
+
+                <div class="nft-card__icon-text-container">
+                    <img class="nft-card__icon" src="/src/svg/icon-clock.svg" alt="Clock icon" title="Clock icon">
+                    3 days left
+                </div>
+            </div>
+
+            <!-- Avatar container -->
+            <div class="nft-card__avatar-container">
+                <img class="nft-card__avatar" src="/src/images/image-avatar.png" alt="Avatar image" title="Avatar image">
+                Creation of <span class="nft-card__author-name">Jules Wyvern</span>
+            </div>
+        </div>
+        <!-- == END Preview card component ==-->
+    </main>
+    <!-- END Main section -->
 
     <!-- Scripts -->
     <script type="module" src="/src/js/main.js"></script>
