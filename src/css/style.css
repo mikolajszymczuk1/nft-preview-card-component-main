@@ -49,9 +49,20 @@ body {
 
 /* Styles for hidden heading */
 .hidden-heading {
-    position: absolute;
+    display: inline-block;
+    position: absolute !important;
+    
+    padding: 0 !important;
+    margin: 0 !important;
+    
+    width: 1px;
+    height: 1px;
+    
+    overflow: hidden;
+    border: 0 !important;
+    clip: rect(1, 2, 3, 4, 5);
 
-    visibility: hidden;
+    font-size: 0;
 }
 
 /* ====== Card styles ====== */
