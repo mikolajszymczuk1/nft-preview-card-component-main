@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/back-to-roots-Gw0OnbdGN)
+- Live Site URL: [Live](https://upbeat-poitras-a61bf2.netlify.app/)
 
 ## My process
 
